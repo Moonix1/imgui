@@ -37,6 +37,5 @@ elseif(UNIX)
 endif()
 
 find_package(OpenGL REQUIRED)
-find_package(glfw3 REQUIRED)
 
 target_link_libraries(ImGui PRIVATE glfw OpenGL::GL)
